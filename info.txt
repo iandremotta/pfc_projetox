@@ -1,0 +1,7 @@
+
+-----------------------------------
+mpdf->Output('arquivo.pdf', 'I');
+i = open in browser
+d = download
+f = save in server
+------------------------------------

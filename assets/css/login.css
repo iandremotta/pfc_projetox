@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+  background-color: #18191a;
+  color: white;
+}
+.container {
+  width: 300px;
+  background: #242526;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+  width: 100%;
+  height: 30px;
+  font-size: 25px;
+}
+.container input[type="submit"] {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  background-color: #3a3b3c;
+  cursor: pointer;
+  color: white;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  background-color: #3a3b3c;
+  cursor: pointer;
+  color: white;
+}
+
+.container input[type="submit"]:hover {
+  background: #18191a;
+}
+.warning {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ff3333;
+  background-color: #ff9999;
+}
+
+.settings {
+  cursor: not-allowed;
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a[href]:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.editContainer {
+  max-height: 400px;
+}
+
+.editContainer h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.editContainer h2:hover {
+  background-color: #242526;
+}
+
+.sadMsg {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+}
